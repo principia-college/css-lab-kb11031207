@@ -1,0 +1,78 @@
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+   --primary-color: #e63946; /* Honda Red */
+   --secondary-color: #1d3557; /* Dark Blue */
+   --accent-color: #dcdcdc;
+   --background-color: #f5f5f5;
+   --text-color: #333333;
+   --light-text: #ffffff;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #333;
+   background-color: #f5f5f5;
+}
+
+.container {
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px 0;
+}
+
+header {
+   background-color: #ffffff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+header .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img {
+   height: 50px;
+   width: auto;
+}
+
+
+
+
+
+/* NAV BAR */
+nav ul {
+   display: flex;
+   list-style: none;
+}
+
+nav ul li {
+   margin-left: 30px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: var(--text-color);
+   font-weight: 500;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: var(--primary-color);
+}
+
+
+
