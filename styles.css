@@ -1,3 +1,11 @@
+/************************************************
+* CSS Lab - A Responsive Motorcycle Website
+* Kesiena Berezi
+* CSCI 324 - CSS Lab
+* Due Feb 12, 2025
+* Main CSS file for styling the motorcycle website
+************************************************/
+
 *, *::before, *::after {
    box-sizing: border-box;
    margin: 0;
@@ -423,18 +431,13 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transition: all 0.3s ease;
-    padding: 10px;  /* Add padding to give icons some space */
+    color: white;  /* Color for the icons */
+    font-size: 20px;  /* Size of the icons */
 }
 
 .social-media a:hover {
     background-color: var(--primary-color);
     transform: translateY(-3px);
-}
-
-.social-media img {
-    width: 100%;  /* Make image fill the container */
-    height: 100%;
-    filter: brightness(0) invert(1);  /* Only keep this if your icons aren't already white */
 }
 
 footer p {
